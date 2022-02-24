@@ -6,6 +6,7 @@
 
 body {
     background: hsl(220, 36%, 20%);
+
 }
 
 .container {
@@ -17,7 +18,7 @@ body {
 }
 
 .advice-box {
-    width: 66%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,16 +26,19 @@ body {
     border-radius: 5px;
     background-color: hsl(218, 33%, 29%);
     font-family: 'Manrope';
+    transition: ease all 0.3s;
 }
 
 .advice-tag {
-    font-size: 8px;
+    padding: 20px 0px;
+    font-size: 4px;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: hsl(150, 100%, 66%);
 }
 
-.advice-text {
+.advice-text-container {
+    padding-bottom: 20px;
     text-align: center;
     width: 66%;
     font-size: 14px;
