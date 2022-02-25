@@ -52,7 +52,7 @@ body {
 
 .advice-tag {
     padding: 20px 0px;
-    font-size: 4px;
+    font-size: 14px;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: var(--neon-green);
@@ -62,7 +62,7 @@ body {
     padding-bottom: 20px;
     text-align: center;
     width: 66%;
-    font-size: 14px;
+    font-size: 28px;
     color: var(--light-cyan);
 }
 
