@@ -13,7 +13,7 @@
 
 body {
     background: var(--dark-grayish-blue);
-
+    font-family: 'Manrope';
 }
 
 @media only screen and (max-width: 375px){
@@ -47,7 +47,6 @@ body {
     justify-content: center;
     border-radius: 5px;
     background-color: var(--grayish-blue);
-    font-family: 'Manrope';
     transition: ease all 0.3s;
 }
 
@@ -95,5 +94,7 @@ body {
     box-shadow: 0px 0px 20px 0px var(--neon-green);
 }
 
-.attribution{
+.attribution {
+    font-size: 8px;
+    color: var(--light-cyan)
 }
