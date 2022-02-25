@@ -14,15 +14,16 @@
 
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body onload="getAdvice()">
 
   <div class="container">
     <div class="advice-box">
-      <span class="advice-tag">Advice #<span id="advice-id">###</span></span>
+      <span class="advice-tag">Advice #<span id="advice-id"></span></span>
       <span class="advice-text-container">
         <span id="advice-text"></span>
       </span> 
       <img class="divider-desktop" src = "images/pattern-divider-desktop.svg" alt="My Happy SVG"/>
+      <img class="divider-mobile" src = "images/pattern-divider-mobile.svg" alt="My Happy SVG"/>
       <div class="button" onClick="getAdvice()">
         <img width="8px" height="8px" src="images/icon-dice.svg" alt="randomize icon"/>
       </div>
@@ -31,7 +32,7 @@
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Vinícius Fernandes</a>.
   </div>
 </body>
 
